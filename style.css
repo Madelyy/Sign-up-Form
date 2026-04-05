@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    background-image: url('/Images/fluffy-heart-pillow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left-side {
+    height: 100vh;
+    position: relative;
+    width: 50%;
+    margin: 0;
+}
+
+.title-section {
+    cursor: default;
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.title {
+    font-size: 100px;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #4A2E35;
+    justify-content: center;
+    margin-bottom: 0;
+    text-align: right;
+    line-height: 0.8;
+    font-weight: 700;
+    text-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    font-size: 32px;
+    color: #8A5D66;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+
+form {
+    color: #8A5D66;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    width: 700px;
+    max-width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px 2px #ce9fae;
+}
+
+fieldset {
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid #F4C6CF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+legend {
+    cursor: default;
+    color: #8A5D66;
+    font-size: larger;
+    text-align: center;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #F4C6CF;
+}
+
+input:hover{
+    border: 1px solid #EFA3B1;
+}
+
+input:focus {
+    border: 1px solid #EFA3B1;
+    outline: none;
+    caret-color: #EFA3B1;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+.required {
+    color: #EFA3B1;
+}
+
+.finish-form {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p a {
+    color: #D97C91;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+p a:hover {
+    color: #E9A4B4;
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4A6B5;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #F4A6B5;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.03);
+    border: 1px solid #EC8FA1;
+    box-shadow: 0 0 3px #EC8FA1;
+    background-color: #EC8FA1;
+}
